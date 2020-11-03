@@ -1,14 +1,14 @@
 
 public class Date {
 	
-	private String date = "Friday";
+	public static String date = "11-2-2020";
 	
 	public Date() {
-		
+		print();
 		
 	}
 	
-	public void print() {
+	public static void print() {
 		System.out.println(date);
 	}
 	
